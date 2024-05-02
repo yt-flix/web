@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+body {
+    margin: 0;
+    font-family: Neucha;
+    background: #0d0d0d;
+}
+
+nav {
+    background-color: #0d0d0d;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+button {
+    background-color: #ff4500; /* Orange color */
+    color: #fff;
+    padding: 15px 50px; /* Increased padding for a bigger button */
+    border: none;
+    border-radius: 13px; /* Increased border-radius for a more rounded button */
+    font-size: 24px; /* Larger font size */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: Neucha;
+}
+
+button:hover {
+    background-color: red; /* Darker shade of orange on hover */
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 32px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 30px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.nav-links li a:hover {
+    color: #ff4500;
+}
+.main-section {
+    padding: 300px 0;
+    color: #fff;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.text h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.text p {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.image {
+    flex: 1;
+    text-align: center;
+}
+
+.image img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+.info-section {
+    background-image: url('Blue\ Artificial\ Intelligence\ Technology\ Ai\ Robot\ Banner\ Background\,\ Blue\,\ Artificial\ Intelligence\,\ Ai\ Background\ Image\ And\ Wallpaper\ for\ Free\ Download.jpeg'); /* Replace 'background_image.jpg' with the path to your background image */
+    background-size: cover; /* Ensure the background image covers the entire section */
+    background-position: center; /* Center the background image */
+    background-color: #0d0d0d;
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.text h2 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logos img {
+    width: 200px; /* Adjust the size as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+.cta-section {
+    background-color: #0d0d0d;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center; /* Center-align text content */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #ff4500; /* Orange color */
+    color: #fff;
+    padding: 15px 30px; /* Increased padding for a bigger button */
+    border: none;
+    border-radius: 30px; /* Increased border-radius for a more rounded button */
+    font-size: 24px; /* Larger font size */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #e63900; /* Darker shade of orange on hover */
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent; /* Color of the track */
+    border-radius: 10px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #fff; /* Color of the thumb */
+    border-radius: 10px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: transparent; /* Color of the thumb on hover */
+}
